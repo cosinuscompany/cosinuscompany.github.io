@@ -1,0 +1,115 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.top_contacts div {
+		display: none;
+		position: absolute;
+		width: 100%;
+		background-color: #2586A9;
+		left: 0px;
+		top: 123px;
+		padding: 15px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.top_links {
+		text-align: center;
+		display: none;
+		position: absolute;
+		top: 44px;
+		width: 100%;
+		background-color: #545A5F;
+		padding: 10px;
+	}
+	.top_links ul li {
+		display: block;
+		padding-bottom: 10px;
+	}
+	.main_menu ul {
+		display: none;
+		position: absolute;
+		top: 123px;
+		width: 100%;
+		background-color: #2586A9;
+		padding: 10px;
+	}
+	.main_menu ul li {
+		width: 100%;
+		display: block;
+		padding-bottom: 5px;
+	}
+	.left_footer {
+		float: left;
+		margin: 0;
+		padding: 10px;
+		width: 100%;
+		text-align: center;
+	}
+	.right_footer {
+		width: 100%;
+	}
+	.site_name, .social {
+		display: inline-block;
+		margin: 0;
+		padding: 10px;
+		float: left;
+		text-align: center;
+		width: 100%;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.top_links {
+		display: block !important;
+	}
+	.main_menu ul {
+		display: block !important;
+	}
+	.social a {
+		float: right;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.top_contacts div {
+		display: inline-block !important;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
